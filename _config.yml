@@ -35,7 +35,11 @@ search: true
 # use JEKYLL_ENV=production on build command
 google_analytics: 
 
-# defaults (to simplify front matter)
+
+#######
+# Defaults 
+# to simplify front matter
+# all files in the "pages" folder will be output at root of site
 defaults:
   - scope:
       path: "pages"
