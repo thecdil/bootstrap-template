@@ -1,7 +1,9 @@
 # bootstrap-template
 
-A basic template to create a [Bootstrap](https://getbootstrap.com/) site using Jekyll on GitHub Pages. 
-Based on the [Bootstrap starter template example](https://getbootstrap.com/docs/4.5/examples/).
+[bootstrap-template](https://github.com/uidaholib/bootstrap-template) is a basic template repository to create a [Bootstrap](https://getbootstrap.com/) site using Jekyll on GitHub Pages (or where every you want to host it). 
+Based on the [Bootstrap starter template example](https://getbootstrap.com/docs/4.5/examples/) with a navbar, search box (using lunr.js), and sticky footer.
+
+Demo: <https://uidaholib.github.io/bootstrap-template/>
 
 ## Get Started 
 
