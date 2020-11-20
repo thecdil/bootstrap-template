@@ -46,3 +46,6 @@ defaults:
     values:
       layout: page
       permalink: /:basename:output_ext
+
+# ignore stuff
+exclude: [docs/, Rakefile, README.md, LICENSE]
