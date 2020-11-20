@@ -1,4 +1,7 @@
-/* template styles */
+/* 
+    Template styles 
+    see assets/css/custom.scss for variables
+*/
 
 /* skip nav for accessibility, based on https://webaim.org/techniques/skipnav/ */
 #skip-to-content a {
@@ -24,12 +27,27 @@
     transition: top .1s ease-in;
 }
 
-/* change default colors */
+/* change default text colors */
 body {
-    color: $text-color;
+    @if variable-exists(text-color) { color: $text-color; }
 }
 a {
-    color: $link-color;
+    @if variable-exists(link-color) { 
+        color: $link-color; 
+        @if variable-exists(text-color) {
+            &:hover { color: $text-color; }
+        }
+    }
+}
+
+/* change container size for easier reading */
+@if variable-exists(container-max) {
+    @media (min-width:992px){
+        .container{max-width:$container-max}
+    }
+    @media (min-width:1200px){
+        .container{max-width:$container-max}
+    }
 }
 
 /* feature include tweaks */
