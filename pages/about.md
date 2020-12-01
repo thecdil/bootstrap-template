@@ -15,4 +15,4 @@ The basic steps for using bootstrap-template are:
 3. edit content pages
 4. use customization options
 
-See docs/create-website.md for details!
+See [docs/create-website.md](https://github.com/thecdil/bootstrap-template/blob/main/docs/create-website.md) for details!
