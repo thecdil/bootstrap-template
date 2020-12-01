@@ -8,8 +8,9 @@
 <meta name="generator" content="thecdil/bootstrap-template">
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
 
-<link rel="stylesheet" href="{{ '/assets/lib/bootstrap.min.css' | relative_url }}">
-
+<link rel="stylesheet" href="{{ '/assets/lib/bootstrap.min.css' | absolute_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | absolute_url }}" type="text/css">
 
-{% if site.google_analytics %}{% include template/google-analytics.html %}{% endif %}
+{% if site.noindex == true or page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
+{% include template/analytics.html %}
+<!-- Last build date: {{ site.time | date: "%Y-%m-%d" }} -->
