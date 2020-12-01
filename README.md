@@ -1,7 +1,8 @@
 # bootstrap-template
 
 [bootstrap-template](https://github.com/thecdil/bootstrap-template) is a basic template repository to create a [Bootstrap](https://getbootstrap.com/) site using Jekyll on GitHub Pages (or where every you want to host it). 
-Based on the [Bootstrap starter template example](https://getbootstrap.com/docs/4.5/examples/) with a navbar, search box (using lunr.js), and sticky footer.
+The layout is based on the [Bootstrap starter template example](https://getbootstrap.com/docs/4.5/examples/) with a navbar, search box (using lunr.js), and sticky footer.
+It is intended as a quick starting point for creating new web projects.
 
 Demo: <https://thecdil.github.io/bootstrap-template/>
 
@@ -15,6 +16,8 @@ Demo: <https://thecdil.github.io/bootstrap-template/>
     - `nav` if this option has a value, it will appear in the navbar as link to this page.
     - `nav_order` navbar items will be sorted using this number. 
 - Use `includes` to simplify adding Bootstrap features to Markdown pages (see comments in `_include/` files for instructions).
+
+See docs/create-website.md for more details.
 
 ## Customize 
 
