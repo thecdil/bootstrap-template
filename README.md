@@ -8,7 +8,7 @@ Demo: <https://thecdil.github.io/bootstrap-template/>
 ## Get Started 
 
 - Click green "Use this template" button to make a new copy of the code (alternatively, use Import or manually copy files)
-- Edit `_config.yml` with your site and repository information
+- Edit `_config.yml` with your site information
 - In your new repository visit "Settings" to activate GitHub Pages
 - Edit and create pages in the "pages" folder (probably in Markdown). Use page yml front matter to populate the navbar:
     - `title` will appear as h1 at top of the page content.
@@ -25,12 +25,9 @@ Demo: <https://thecdil.github.io/bootstrap-template/>
 
 ## Template Assets
 
-Included via CDN:
+Included in assets/lib folder:
 
 - [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) 4.5.3
 - [JQuery](https://jquery.com/) 3.5.1
-
-Included in assets/lib folder:
-
 - [Bootstrap Icons](https://icons.getbootstrap.com/) 1.1.0
 - [lunr.js](https://lunrjs.com/) 2.3.9
