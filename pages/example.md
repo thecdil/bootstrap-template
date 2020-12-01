@@ -15,6 +15,8 @@ Code can be highlighted with `backticks`.
 
 Hyperlinks look like this [GitHub Help](https://help.github.com/).
 
+### Lists 
+
 A bullet list is created using `*`, `+`, or `-`, like:
 
 - dog
@@ -32,18 +34,17 @@ Horizontal rule:
 
 --------------
 
-![alt text is white cat](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/VAN_CAT.png/480px-VAN_CAT.png)
-
-I found this [Cat image on Wikimedia](https://commons.wikimedia.org/wiki/File:VAN_CAT.png).
+{% include figure.html img="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/VAN_CAT.png/480px-VAN_CAT.png" alt="white cat" caption="I found this [Cat image on Wikimedia](https://commons.wikimedia.org/wiki/File:VAN_CAT.png)." %}
 
 > A block quote.
 > Is like this.
+{:.blockquote}
 
-A table:
+### A Table
 
-{:.table .table-striped}
 | header | column a | column b |
 | --- | --- | --- |
 | dogs | 3 | 6 |
 | cats | 3 | 6 |
 | muffins | 15 | 30 |
+{:.table .table-striped}
