@@ -6,10 +6,10 @@
 {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
 <!-- built with bootstrap-template https://github.com/thecdil/bootstrap-template -->
 <meta name="generator" content="thecdil/bootstrap-template">
-<link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
+<link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 
-<link rel="stylesheet" href="{{ '/assets/lib/bootstrap.min.css' | absolute_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | absolute_url }}" type="text/css">
+<link rel="stylesheet" href="{{ '/assets/lib/bootstrap.min.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}" type="text/css">
 
 {% if site.noindex == true or page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
 {% include template/analytics.html %}
