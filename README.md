@@ -6,7 +6,7 @@ It is intended as a quick starting point for creating new web projects.
 
 Demo: <https://thecdil.github.io/bootstrap-template/>
 
-## Get Started 
+## Get Started
 
 - Click green "Use this template" button to make a new copy of the code (alternatively, use Import or manually copy files)
 - Edit `_config.yml` with your site information
@@ -19,7 +19,7 @@ Demo: <https://thecdil.github.io/bootstrap-template/>
 
 See [docs/create-website.md](https://github.com/thecdil/bootstrap-template/blob/main/docs/create-website.md) for more details.
 
-## Customize 
+## Customize
 
 - Tweak base variables in `assets/css/custom.scss` (text color, link color, container size)
 - Tweak bootstrap theme colors using `_data/theme-colors.csv` (add a css color in the color column next to the BS color-class to override, or create a new class name. This will generate btn-, text-, and bg- classes.)
@@ -30,7 +30,7 @@ See [docs/create-website.md](https://github.com/thecdil/bootstrap-template/blob/
 
 Included in assets/lib folder:
 
-- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) 4.5.3
+- [Bootstrap](https://getbootstrap.com/docs/5.1/) 5.1
 - [JQuery](https://jquery.com/) 3.5.1
-- [Bootstrap Icons](https://icons.getbootstrap.com/) 1.1.0
+- [Bootstrap Icons](https://icons.getbootstrap.com/) 1.5.0
 - [lunr.js](https://lunrjs.com/) 2.3.9
