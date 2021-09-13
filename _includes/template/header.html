@@ -7,7 +7,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ms-auto">
                 {% assign nav_pages = site.html_pages | where_exp: 'p','p.nav' | sort: 'nav_order' %}
                 {% for p in nav_pages %}
                 <li class="nav-item{% if page.url == p.url %} active{% endif %}">

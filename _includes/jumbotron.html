@@ -1,7 +1,6 @@
 {% comment %}
 
-    Bootstrap Jumbotron, https://getbootstrap.com/docs/4.5/components/jumbotron/
-    This include adds a Jumbotron feature.
+    Bootstrap Container, https://getbootstrap.com/docs/5.0/components/navbar/#containers
     All options are optional!
 
     Options:
@@ -23,15 +22,10 @@
 }
 </style>{% endif %}
 
-<!-- <div class="jumbotron" id="jumbotron-feature">
-    <div class="container">
-        {% if include.title %}<h1 class="display-3">{{ include.title | markdownify }}</h1>{% endif %}
-        {% if include.lead %}<p class="lead">{{ include.lead | markdownify }}</p>{% endif %}
-        {% if include.text %}<p>{{ include.text | markdownify }}</p>{% endif %}
-        {% if include.btn-link %}<a class="btn btn-primary btn-lg" href="{{ include.btn-link }}">{{ include.btn-text }}</a>{% endif %}
-    </div>
-</div> -->
-
+<!--
+  jumbotron no longer present bs-5, can achieve the same effect by using the
+  container/container-fluid classes.
+-->
 <div class="container-fluid bg-light p-5" id="jumbotron-feature">
   <div class="container">
     {% if include.title %}<h1 class="display-3">{{ include.title | markdownify }}</h1>{% endif %}
