@@ -6,7 +6,7 @@ It is intended as a quick starting point for creating new web projects.
 
 Demo: <https://thecdil.github.io/bootstrap-template/>
 
-*Please note: this template uses Bootstrap 4. For most recent version check [bootstrap4-template](https://github.com/thecdil/bootstrap5-template).*
+*Please note: this template uses Bootstrap 4. For most recent version check [bootstrap5-template](https://github.com/thecdil/bootstrap5-template).*
 
 ## Get Started 
 
