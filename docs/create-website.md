@@ -17,7 +17,8 @@ The basic steps for using bootstrap-template are:
 - Make your own copy of the repository by clicking the green "Use this template" button (alternatively, use Import or manually copy files to a new repo).
     - Since the repository name will become part of the site URL, use a sensible name with no spaces or odd characters (dash or underscore are okay).
 - Activate GitHub Pages. 
-    - On your repository visit "Settings", scroll down to "GitHub Pages" section, select Branch "main" from the drop down, and click Save. 
+    - On your repository visit "Settings", click "Pages" on the side menu.
+    - In the "GitHub Pages" settings, under "Source" select Branch "main" from the drop down, and click Save. 
     - Once activated, it will provide your new URL, following the pattern `https://username.github.io/repository_name`
 
 ## Edit _config.yml
@@ -29,7 +30,7 @@ Edit `_config.yml` with your site information:
 - `description`, `author`, and `year` appear in footer and meta tags.
 - `search` can be set to `true` / `false`, true will include a search box in the navbar. The search box will search site content using lunr.js.
 - URL variables (`url` and `baseurl`) are optional if using GitHub Pages, but should be filed in if hosting else where.
-- `google-analytics-id` is optional. Add your Analytics id to automatically add the embed code to head.
+- `google-analytics-id` is optional. Add your Analytics id to automatically add the embed code to head. (alternatively, paste your the snippet provided by your analytics platform into the file "_includes/template/analytics.html")
 - Set `noindex` to `true` if you do NOT want Google to index your site.
 - Leave the Build settings section as is.
 
