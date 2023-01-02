@@ -23,7 +23,7 @@ See [docs/create-website.md](https://github.com/thecdil/bootstrap-template/blob/
 
 ## Customize 
 
-- Tweak base variables in `assets/css/custom.scss` (text color, link color, container size)
+- Tweak base variables in `assets/css/main.scss` (text color, link color, container size)
 - Tweak bootstrap theme colors using `_data/theme-colors.csv` (add a css color in the color column next to the BS color-class to override, or create a new class name. This will generate btn-, text-, and bg- classes.)
 - Add custom CSS to `_sass/_custom.scss` (content of `_sass/_template.scss` relates to template components)
 - Use Bootstrap to customize `_layouts/` and `_includes/template/`.
